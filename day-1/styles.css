@@ -1,0 +1,54 @@
+.body {
+    margin: 25px;
+    text-align: center;
+}
+
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+    width: 400px;
+    margin: auto;
+    background-color: #ddebf8;
+    /* border-bottom: 6px solid #d8cefe; */
+    border-radius: 5px;
+    box-shadow: -6px 6px #d8cefe;
+    animation-name: shadow1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    margin-right:25px;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: -5px 5px #FAF3DD;
+    animation-name: shadow;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+.content-wrapper{
+    line-height: 8px;
+    text-align: center;
+    color: #2b2839;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@keyframes shadow {
+    0% {box-shadow:-5px 5px #FAF3DD;}
+    50% {box-shadow: -5px 5px #75DBCD;}
+    100% {box-shadow:-5px 5px #FAF3DD;}
+}
+
+@keyframes shadow1 {
+    0% {box-shadow: -6px 6px #d8cefe}
+    50% {box-shadow: -6px 6px #FAA381}
+    100% {box-shadow: -6px 6px #d8cefe}
+}
+/* .dotted {
+    border: 1px dotted blue;
+} */
