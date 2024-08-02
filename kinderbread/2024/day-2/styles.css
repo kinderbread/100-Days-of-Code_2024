@@ -1,0 +1,49 @@
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 900 */
+
+.orbitron-Orbitron {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+}
+
+body {
+    margin: 0px;
+    color: #82a5ca;
+    text-align: center;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 800;
+}
+
+#hero {
+    padding: 50px 0px 100px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3lsZGNtMGwxbW9qbG1xcTN2a3J3czJ0aDBoaHZ5ajAydjk5anFiMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/iicDrNGWxHmDrIni6j/giphy.gif');
+}
+
+.btn {
+    font-size: 14px;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 600;
+    padding: 6px 12px;
+    background-color: white;
+    border: none;
+    color:#82a5ca;
+}
+
+#title {
+    text-shadow: 0px 0px 4px black;
+}
+
+.underline {
+    /* text-decoration: underline solid white 5px; */
+    border-bottom: 4px solid white;
+}
+
+#logo {
+    /* display: block;
+    margin: auto; */
+    width: 100px;
+}
