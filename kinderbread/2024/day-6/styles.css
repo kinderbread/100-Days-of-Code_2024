@@ -1,0 +1,285 @@
+/* Google Fonts */
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+
+/* Body CSS */
+body {
+    text-align: center;
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+    border: none;
+}
+
+h1 {
+    font-weight: 500;
+}
+
+/* HERO */
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("media/images/hero_images/sausalito-aerial.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px auto;
+    height: 500px;
+    text-shadow: 0px 0px 5px white;
+}
+
+#hero-title {
+    border-bottom: 3px solid white;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+#hero-subtitle {
+    font-size: 20px;
+}
+
+#hero-description {
+    background-color: #BADEFC;
+    padding: 10px 4px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 300;
+    text-shadow: none;
+    margin: 0 auto;
+    width: 300px;
+}
+
+/* ALL SECTIONS */
+
+.section-wrapper {
+    background-color: white;
+    border: 1px solid #BADEFC;
+    margin-top: 0px;
+  }
+  
+  /* ACTIVITIES */
+  
+  #activities-section-wrapper {
+    background-color: #BADEFC;
+}
+
+#activities-title {
+  margin-top: 30px;
+}
+
+.activities-wrapper {
+    /* border: 2px dotted red; */
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.activities-card {
+    border: none;
+    padding: 20px 10px;
+}
+
+.activity-card-img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.activities-card-title {
+    font-size: 18px;
+}
+
+.activities-card-description {
+  font-weight: 300;
+}
+
+.activities-card-cta {
+  color: #485696;
+  text-decoration: none;
+}
+
+/* PEOPLE */
+
+#people-title {
+  padding: 30px auto;
+}
+
+#people-section-wrapper {
+  border: 10px solid lightgoldenrodyellow;
+  background: lightgoldenrodyellow;
+}
+
+.people-wrapper {
+  /* border: 3px dotted blue; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#d1-d2, #d3-d4 {
+  display: flex;
+  flex-direction: row;
+}
+
+.people-card {
+  /* border: 3px dotted magenta; */
+  width: 475px;
+  display: flex;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  background-color:aliceblue;
+  border-bottom: 6px solid lightblue;
+}
+
+.people-avatar {
+  justify-content: flex-start;
+  width: 150px;
+  border-radius: 10%;
+  margin-right: 20px;
+}
+
+.people-description {
+  width: 310px;
+  font-size: 14px;
+  font-weight: 300;
+}
+/* EVENTS */
+
+#events-wrapper {
+  border: 1px solid #C5E99B;
+  background-color: #C5E99B;
+}
+.events-title {
+  margin: 30px auto;
+}
+
+.events-table {
+  display: block;
+  width: 600px;
+  margin: 0 auto 30px auto;
+  border-radius: 5px;
+}
+
+td, th {
+  padding: 10px 20px;
+}
+
+.events-table-headers {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  background-color:#485696;
+  color: white;
+}
+
+.events-table-body {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  background-color: antiquewhite;
+}
+
+.events-cta {
+  text-decoration: none;
+}
+
+/* FOOTER */
+
+.footer {
+  padding: 25px auto;
+  background-color: #BADEFC;
+  border: 1px solid #BADEFC;
+}
+
+.footer-title {
+  margin: 25px auto;
+}
+
+.footer-cta-label {
+  font-weight: 300;
+}
+
+.footer-cta {
+margin-bottom: 25px;
+}
+
+.footer-cta-btn {
+  padding: 3px 10px;
+  color: white;
+  background-color:#485696;
+  border: none;
+  border-radius: 3px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
