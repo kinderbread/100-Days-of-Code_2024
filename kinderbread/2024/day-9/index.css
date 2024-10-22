@@ -1,0 +1,121 @@
+/* Color Palette: 
+Background: #1B244A
+Scoreboard Numbers: #F94F6D
+Scoreboard Background: #080001
+Home/Guest Font Color: White
+Button colors: #9AABD8 */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+button:hover {
+    background-color: #9AABD8;
+    color:#1B244A;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px;
+    background-color: #1B244A;
+    padding: 40px;
+    border: 1px solid #1B244A;
+}
+
+.mvp-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+}
+
+.nbjj-logo {
+    display: block;
+    width: 120px;
+    margin: 0px auto 20px auto;
+}
+
+.timer-container {
+    margin-bottom: 20px;
+}
+
+.timer-title {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+.timer-btn {
+    font-size: 14px;
+}
+
+.timer-el {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 22px;
+    color: white;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5%;
+}
+
+.team-container {
+    /* border: 2px solid magenta; */
+    max-width: 160px;
+    margin: 0px;
+}
+
+.team-name {
+    /* border: 2px solid yellow; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 42px;
+    color: white;
+    margin: 5px auto 15px auto;
+}
+
+
+.score-container {
+    display: flex;
+    /* border: 2px solid blue; */
+    background-color: #080001;
+    max-height: 130px;
+    width: 155px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5%;
+}
+
+.score {
+    /* border: 2px solid white; */
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 6em;
+    color: #F94F6D;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid greenyellow; */
+    margin-top: 15px;
+}
+
+.add-points, button {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 18px;
+    color: #9AABD8;
+    border: 1px solid #9AABD8;
+    border-radius: 10%;
+    background-color: #1B244A;
+    padding: 4px 6px;
+}
+
+.end-container {
+    /* border: 2px solid cyan; */
+    margin-top: 20px;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css"/>
+        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <img class="nbjj-logo" src="/images/NBJJ_logo.png" alt="North Bay Jiu Jitsu Logo"/>
+            <div class="timer-container">
+                <h3 class="timer-title">ROUND TIMER</h3>
+                    <button class="timer-btn" onclick="setTimer3min()">3:00</button>
+                    <button class="timer-btn" onclick="setTimer4min()">4:00</button>
+                    <button class="timer-btn" onclick="setTimer5min()">5:00</button>
+                    <button class="timer-btn" onclick="setTimer6min()">6:00</button>
+                <div id="timer-el">00:00</div>
+                <div class="timer-btn-wrapper">
+                    <button class="timer-btn" id="start-timer" onclick="startTimer()">START</button>
+                    <button class="timer-btn" id="stop-timer" onclick="stopTimer()">STOP</button>
+                    <button class="timer-btn" id="reset-timer" onclick="resetTimer()">RESET</button>
+                </div>
+            </div>
+            <div class="mvp-container">
+                <div class="team-container">
+                    <h3 class="team-name">RED</h3>
+                    <div class="score-container">
+                        <h1 class="score" id="home-score">0</h1>
+                    </div>
+                    <div class="button-container">
+                        <button class="add-points" id="homeAddOne" onclick="addOneHome()">+1</button>
+                        <button class="add-points" id="homeAddTwo" onclick="addTwoHome()">+2</button>
+                        <button class="add-points" id="homeAddThree" onclick="addThreeHome()">+3</button>
+                        <button class="add-points" onclick="addFourHome()">+4</button>
+                    </div>
+                </div>
+                <div class="team-container">
+                    <h3 class="team-name">BLUE</h3>
+                    <div class="score-container">
+                        <h1 class="score" id="guest-score">0</h1>
+                    </div>
+                    <div class="button-container">
+                        <button class="add-points" onclick="addOneGuest()">+1</button>
+                        <button class="add-points" onclick="addTwoGuest()">+2</button>
+                        <button class="add-points" onclick="addThreeGuest()">+3</button>
+                        <button class="add-points" onclick="addFourGuest()">+4</button>
+                    </div>
+                </div>
+            </div>
+            <div class="end-container">
+                <button id="reset-btn" onclick="resetPoints()">RESET</button>
+                <button id="compare-btn" onclick="comparePoints()">RESULT</button>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
